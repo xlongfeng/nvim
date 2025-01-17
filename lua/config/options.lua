@@ -4,3 +4,6 @@
 
 -- Disable all snacks animations
 vim.g.snacks_animate = false
+
+-- Disalbe showing relative line number
+vim.opt.relativenumber = false
