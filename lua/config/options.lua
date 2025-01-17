@@ -5,5 +5,8 @@
 -- Disable all snacks animations
 vim.g.snacks_animate = false
 
+-- Enable loading extra rc from current directory
+vim.opt.exrc = true
+
 -- Disalbe showing relative line number
 vim.opt.relativenumber = false
