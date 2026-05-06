@@ -96,6 +96,19 @@ Prefer `opts = { ... }` → `opts = function(_, opts)` → `config = function()`
 - **blink.cmp**: `<C-y>` remapped to `fallback` (restores default Vim behaviour).
 - **Lockfile**: Do not hand-edit `lazy-lock.json`; update intentionally via `:Lazy sync`.
 
+## Commit Message Style
+
+Follow the existing history format: `type: Capitalized verb rest of message`
+
+```
+docs: Add .github/copilot-instructions.md
+plugs: Format cmake with cmake_format
+opts: Enable loading extra rc from current directory
+```
+
+- Common types: `docs`, `plugs`, `opts`, `fix`
+- The first word after `type:` must be a capitalized verb (e.g., `Add`, `Remove`, `Fix`, `Update`)
+
 ## Agent Checklist
 
 - Read nearby plugin files before changing local style or structure.
