@@ -5,6 +5,9 @@
 -- Disable all snacks animations
 vim.g.snacks_animate = false
 
+-- Disable indent guides
+vim.g.snacks_indent = false
+
 -- Enable loading extra rc from current directory
 vim.opt.exrc = true
 
